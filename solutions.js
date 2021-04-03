@@ -58,7 +58,7 @@ var recursiveSum = function(n){
 // isPowerOfTwo(9) -> false
 
 var isPowerOfTwo = function(n){
-  var quotient = n / 2;
+  var quotient = n /2;
   if (quotient === 1) {
     return true;
   } else if (quotient % 2 === 1 || quotient < 1) {
@@ -147,7 +147,7 @@ tree.right = new BinaryTree(100);
 tree.right.left = new BinaryTree(200);
 tree.right.right = new BinaryTree(200);
 tree.left.left = new BinaryTree(200);
-tree.left.right = new BinaryTree(200);
+tree.left.right = new BinaryTree(400);
 //console.log(binaryTreeSum(tree));
 
 
