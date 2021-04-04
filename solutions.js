@@ -196,6 +196,7 @@ function permutations(rounds, choices){
   return results;
 }
 // Reccursive
+// return results;
 
 // rock paper scissors
 function rockPaperScissors(n){
